@@ -20,12 +20,6 @@ body,html{
 .main{
     height: 100%;
     width: 100%;
-    /* background-color: rgb(255, 255, 255);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    
 }
 .nav{
     width: 100%;
@@ -83,36 +77,6 @@ body,html{
 .nav .part2 #nav_link:hover::after{
     opacity: 1;
 }
-/* .nav .part2 .ri-menu-3-fill{
-    font-size: 1.2vw;
-    font-weight: 800;
-    display: none;
-} */
-
-
-/* @media (max-width:600px) {
-
-    .main{
-        width: 70%;
-        padding: 0px 30px;
-    }
-
-    .nav{
-        padding: 24px 20px;
-        width: 100%;
-    }
-
-    .nav .part2 a{
-        display: none;
-    }
-    .nav .part2 .ri-menu-3-fill{
-        display: block;
-    }
-    .nav h1{
-        font-size: 5vw;
-    }
-    
-} */
 .nav .part2 a:nth-last-child(1){
     padding: 8px 20px;
     padding: 0.8vw 2vw;
