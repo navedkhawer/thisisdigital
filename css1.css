@@ -1,0 +1,149 @@
+
+.page2 a{
+    text-decoration: none;
+    margin: 20px;
+    color: #ffffff;
+    /* font-family: cooper; */
+    font-size: 17px;
+    font-weight: 100;
+    font-family: poppins;
+}
+.page2 a:nth-last-child(1){
+    padding: 12px 20px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.page a:nth-last-child(1) .green_2{
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: left 0.5s ease-out;
+}
+.page2 a:nth-last-child(1) h4{
+    font-weight: 100;
+    position: relative;
+    z-index: 99;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 100;
+}
+.page a:nth-last-child(1):hover .green_2{
+    left: 0;
+}
+.right_text h1::after{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 17px;
+    left: 25%;
+    top: 12%;
+    background-image: url(/underline-green.png);
+    background-position: center;
+    background-size: cover;
+}
+.page2{
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.page2 h1{
+    width: 70%;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-family: cooper;
+    margin: 26px 0px;
+    position: relative;
+}
+.page2 h1::after{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    left: 73%;
+    bottom: 24%;
+    background-image: url(/circle-green.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    padding: 32px 32px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #fff;
+
+}
+.nav .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cooper;
+}
+.nav h1{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: cooper;
+    font-weight: 500;
+    color: #000000;
+    transition: 1s;
+}
+.nav .part2 a{
+    text-decoration: none;
+    margin: 20px;
+    color: #000000;
+    /* font-family: cooper; */
+    font-size: 17px;
+    font-weight: 100;
+    font-family: poppins;
+}
+.nav .part2 a:nth-last-child(1){
+    padding: 12px 20px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.nav .part2 a:nth-last-child(1) .green{
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: left 0.5s ease-out;
+
+}
+.nav .part2 a:nth-last-child(1):hover .green{
+    left: 0;
+    
+}
+.nav .part2 a:nth-last-child(1) h5{
+    font-weight: 100;
+    position: relative;
+    z-index: 99;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 100;
+}
+.nav .part2 i{
+    margin-left: 5px;
+}
